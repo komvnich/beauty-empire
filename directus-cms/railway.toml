@@ -1,0 +1,15 @@
+# Railway: том нельзя описать в этом файле — создай Volume в UI или CLI и примонтируй к этому сервису.
+#   Mount path (обязательно): /directus/uploads
+#   CLI: railway volume add --mount-path /directus/uploads
+# Если загрузки падают по правам — переменная сервиса: RAILWAY_RUN_UID=0
+#
+# Сервис в Railway: Root Directory = directus-cms, подключи Postgres и задай KEY, SECRET, DB_*, PUBLIC_URL.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/server/ping"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"

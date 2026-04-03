@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  database:
+    image: postgres:15
+    container_name: directus-db
+    environment:
+      POSTGRES_USER: 'directus'
+      POSTGRES_PASSWORD: 'directus_password'
+      POSTGRES_DB: 'directus_db'
+    volumes:
+      - ./data/database:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+
+  directus:
+    image: directus/directus:11.3.1
+    container_name: directus-app
+    ports:
+      - '8055:8055'
+    volumes:
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+    depends_on:
+      - database
+    environment:
+      KEY: 'directus-beauty-empire-key-12345'
+      SECRET: 'directus-beauty-empire-secret-12345'
+      DB_CLIENT: 'pg'
+      DB_HOST: 'database'
+      DB_PORT: '5432'
+      DB_DATABASE: 'directus_db'
+      DB_USER: 'directus'
+      DB_PASSWORD: 'directus_password'
+      CACHE_ENABLED: 'true'
+      CACHE_STORE: 'memory'
+      ADMIN_EMAIL: 'admin@beauty-empire.com'
+      ADMIN_PASSWORD: 'admin'
+      PUBLIC_URL: 'http://localhost:8055'
+
+    # The Next.js app uses this path, so make sure this is what is exposed.

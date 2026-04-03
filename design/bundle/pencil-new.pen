@@ -1,0 +1,2144 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 474,
+      "y": -68,
+      "name": "Landing Page Redesign",
+      "clip": true,
+      "width": 1440,
+      "fill": "$--color-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BxAAk",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#13373F",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#c094484d"
+          },
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8sfmp",
+              "name": "logoGroup",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0q28O",
+                  "fill": "$--color-text",
+                  "content": "BEAUTY EMPIRE",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 25.89,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "nuJ4T",
+                  "fill": "$--color-accent-gold",
+                  "content": "WARSAW",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ODezn",
+              "name": "nav",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pJ1pR",
+                  "fill": "$--color-text",
+                  "content": "Nasze usługi",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "gvIBE",
+                  "fill": "$--color-text",
+                  "content": "Cennik",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "IsgiG",
+                  "fill": "$--color-text",
+                  "content": "O nas",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "vyGTV",
+                  "fill": "$--color-text",
+                  "content": "Efekty",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "fYUbs",
+                  "name": "contactBtn",
+                  "fill": "$--color-accent-gold",
+                  "cornerRadius": 100,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qb1m1",
+                      "fill": "#0B0B0B",
+                      "content": "Kontakt",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jEUUw",
+          "name": "HeroAndStatsWrapper",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "O751c",
+              "name": "Hero",
+              "width": "fill_container",
+              "height": 700,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1773861590996.png",
+                "mode": "fill"
+              },
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "7XTB4",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "heroOverlay",
+                  "opacity": 0.75,
+                  "fill": "$--color-bg",
+                  "width": "fill_container(0)",
+                  "height": "fill_container(0)"
+                },
+                {
+                  "type": "frame",
+                  "id": "MMvS1",
+                  "name": "heroContent",
+                  "width": 800,
+                  "layout": "vertical",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pc53x",
+                      "name": "tagline",
+                      "fill": "$--color-accent-emerald",
+                      "cornerRadius": 100,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hVdmn",
+                          "fill": "$--color-text-invert",
+                          "content": "STUDIO PRZEDŁUŻANIA WŁOSÓW",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "3tYyC",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": 800,
+                      "content": "Przedłużanie Włosów Klasy Premium — Twoje Nowe, Gęste Włosy w 3 Godziny",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mTFyq",
+                      "fill": "#ffffffe6",
+                      "textGrowth": "fixed-width",
+                      "width": 700,
+                      "content": "Zagęszczenie, przedłużenie i pełna metamorfoza przy użyciu najwyższej jakości włosów naturalnych. Niewidoczne łączenia, bezpieczna technika i efekt, który pokochasz.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KsdLB",
+                      "name": "heroBtn",
+                      "fill": "$--color-accent-gold",
+                      "cornerRadius": 100,
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        40
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9hE85",
+                          "fill": "#0B0B0B",
+                          "content": "Umów bezpłatną konsultację",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "pZJGf",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#0B0B0B"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KT3XN",
+              "name": "Stats",
+              "width": "fill_container",
+              "fill": "$--color-bg-dark",
+              "gap": 32,
+              "padding": [
+                64,
+                120
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C67XW",
+                  "name": "s1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q0O76",
+                      "fill": "$--color-accent-gold",
+                      "content": "8+",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KBBJL",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LAT DOŚWIADCZENIA",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z1gJ2",
+                  "name": "s2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VTgm3",
+                      "fill": "$--color-accent-gold",
+                      "content": "1,000+",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yFm86",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ZADOWOLONYCH KLIENTÓW",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9N2iG",
+                  "name": "s3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cX2zZ",
+                      "fill": "$--color-accent-gold",
+                      "content": "10+",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bY2pW",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "CERTYFIKOWANYCH TERAPEUTÓW",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HvWJK",
+                  "name": "s4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vekP3",
+                      "fill": "$--color-accent-gold",
+                      "content": "30+",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fAl1E",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PROGRAMÓW TERAPEUTYCZNYCH",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LXmX1",
+                  "name": "s5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "njIns",
+                      "fill": "$--color-accent-gold",
+                      "content": "15,000+",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 67.77,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xDVtw",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "SESJI TERAPEUTYCZNYCH",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1QY5t",
+          "name": "Benefits",
+          "width": "fill_container",
+          "fill": "$--color-bg-dark",
+          "gap": 80,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "E3oeF",
+              "name": "benImg",
+              "clip": true,
+              "width": 500,
+              "height": 600,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1773861659039.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            },
+            {
+              "type": "frame",
+              "id": "qj9Gh",
+              "name": "benC",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "99Nw3",
+                  "fill": "$--color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Co osiągniesz dzięki przedłużaniu włosów?",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "uK0vi",
+                  "name": "benL",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9NvqD",
+                      "name": "bI1",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "EeD7x",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UaCr9",
+                          "fill": "$--color-text-invert",
+                          "content": "Natychmiastową długość włosów",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z870p",
+                      "name": "bI2",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aMFc7",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nQIjF",
+                          "fill": "$--color-text-invert",
+                          "content": "Większą objętość i gęstość",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nan4A",
+                      "name": "bI3",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "uLEJM",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3GllK",
+                          "fill": "$--color-text-invert",
+                          "content": "Idealnie dopasowany kolor",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8wIVv",
+                      "name": "bI4",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "OlxcL",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hMoFS",
+                          "fill": "$--color-text-invert",
+                          "content": "Naturalny efekt bez łączeń",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UmaSf",
+                  "name": "bBtn",
+                  "fill": "$--color-accent-gold",
+                  "cornerRadius": 100,
+                  "gap": 12,
+                  "padding": [
+                    20,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8orfo",
+                      "fill": "#0B0B0B",
+                      "content": "Chcę taki efekt",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Uncf2",
+          "name": "Pain Points",
+          "width": "fill_container",
+          "fill": "$--color-bg",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Yfrf1",
+              "name": "ppHeader",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Yebbb",
+                  "fill": "$--color-text",
+                  "content": "Dla kogo jest ten zabieg?",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NiGDC",
+                  "fill": "#ffffffb3",
+                  "content": "Jeśli zmagasz się z którymś z tych problemów, jesteś w dobrym miejscu.",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wJ6GQ",
+              "name": "ppGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "01ZvF",
+                  "name": "ppC1",
+                  "width": 360,
+                  "fill": "$--color-bg",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$--color-accent-brown"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kjJHM",
+                      "name": "ppI1",
+                      "fill": "#c094481a",
+                      "cornerRadius": 100,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "0v89I",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "wind",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "usNEq",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cienkie i rzadkie",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 25.89,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZkKT5",
+                      "fill": "#ffffffb3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Brakuje im objętości nawet po stylizacji, przez co fryzura wydaje się płaska.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9nFCf",
+                  "name": "ppC2",
+                  "width": 360,
+                  "fill": "$--color-bg",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$--color-accent-brown"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CQucl",
+                      "name": "ppI2",
+                      "fill": "#c094481a",
+                      "cornerRadius": 100,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bvDV0",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "scissors",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cPYp9",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Zniszczone koloryzacją",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 25.89,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jid3e",
+                      "fill": "#ffffffb3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Częste rozjaśnianie sprawiło, że końcówki urywają się i nie chcą rosnąć.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zKJvP",
+                  "name": "ppC3",
+                  "width": 360,
+                  "fill": "$--color-bg",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$--color-accent-brown"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KIbki",
+                      "name": "ppI3",
+                      "fill": "#c094481a",
+                      "cornerRadius": 100,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "JqVrd",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "hourglass",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--color-accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SVFv6",
+                      "fill": "$--color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Krótkie i niesforne",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 25.89,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YT9GA",
+                      "fill": "#ffffffb3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Zapuściłaś boba, ale marzysz o długich pasmach bez wielomiesięcznego czekania.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fqx9J",
+          "name": "Services",
+          "width": "fill_container",
+          "fill": "$--color-bg-dark",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "olAnl",
+              "name": "srvHeader",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XgkQ8",
+                  "fill": "$--color-text",
+                  "content": "Metamorfoza Twoich włosów",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VJ5q2",
+                  "fill": "$--color-text",
+                  "content": "Wybierz usługę dostosowaną do Twoich potrzeb i uzyskaj wymarzony efekt.",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ybrm0",
+              "name": "srvGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JPyIB",
+                  "name": "srvC1",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mokHU",
+                      "name": "imgC1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773862999493.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ljDKe",
+                      "name": "srvP1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Bdeoh",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Przedłużanie włosów",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4fyXo",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Metoda kanapkowa lub keratynowa – dopasowana do struktury i kondycji Twoich naturalnych włosów.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M3f95",
+                  "name": "srvC2",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ICiFH",
+                      "name": "imgC2",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773863015092.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "132p6",
+                      "name": "srvP2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RWG6V",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Zagęszczanie włosów",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kwzh1",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Natychmiastowa objętość dla rzadkich i pozbawionych gęstości pasm. Idealnie wtapia się w Twoją fryzurę.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AWFvS",
+                  "name": "srvC3",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yNgKY",
+                      "name": "imgC3",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773863050148.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TX9ix",
+                      "name": "srvP3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "33VFz",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Regeneracja",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kgNBd",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Zabiegi odbudowujące, które przywracają blask i jedwabistość nawet najbardziej zniszczonym włosom.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LwOeV",
+                  "name": "srvC4",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J3Oy3",
+                      "name": "imgC4",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773863101155.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R5tHC",
+                      "name": "srvP4",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H1y8o",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Pielęgnacja",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nAYQk",
+                          "fill": "$--color-text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Indywidualnie dobrana rutyna pielęgnacyjna...",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UJXeZ",
+              "name": "sliderControls",
+              "width": "fill_container",
+              "gap": 32,
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bTsVf",
+                  "name": "arrowL",
+                  "cornerRadius": 100,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#ffffff33"
+                  },
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "AsFPk",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "arrow-left",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--color-text"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u2p0V",
+                  "name": "dots",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JashO",
+                      "width": 40,
+                      "height": 4,
+                      "fill": "$--color-accent-gold",
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m2Dvl",
+                      "width": 8,
+                      "height": 4,
+                      "fill": "#ffffff33",
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MfSK9",
+                      "width": 8,
+                      "height": 4,
+                      "fill": "#ffffff33",
+                      "cornerRadius": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ndH9p",
+                      "width": 8,
+                      "height": 4,
+                      "fill": "#ffffff33",
+                      "cornerRadius": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4MWU8",
+                  "name": "arrowR",
+                  "cornerRadius": 100,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$--color-accent-gold"
+                  },
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "AyVaP",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--color-accent-gold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9KfU2",
+          "name": "Process",
+          "width": "fill_container",
+          "fill": "$--color-bg",
+          "gap": 80,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "s4ISp",
+              "name": "prcL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zvnhY",
+                  "fill": "$--color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Jak wygląda profesjonalne przedłużanie włosów?",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZhEjo",
+                  "name": "prcSteps",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9ZNVF",
+                      "name": "s1",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FU5xz",
+                          "fill": "$--color-accent-emerald",
+                          "content": "01",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nR9zz",
+                          "name": "s1T",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RVYua",
+                              "fill": "$--color-text",
+                              "content": "Bezpłatna Konsultacja",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 25.89,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jSFNI",
+                              "fill": "$--color-text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Oceniamy stan Twoich włosów, ustalamy pożądaną długość, gęstość i dobieramy odpowiednią metodę oraz termin zabiegu.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$--font-body",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "73V1d",
+                      "name": "s2",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tCriz",
+                          "fill": "$--color-accent-emerald",
+                          "content": "02",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zY3DZ",
+                          "name": "s2T",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZJ9Dq",
+                              "fill": "$--color-text",
+                              "content": "Indywidualny dobór",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 25.89,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wnpBR",
+                              "fill": "$--color-text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Dopasowujemy strukturę i kolor doczepianych pasm tak, by perfekcyjnie łączyły się z Twoimi naturalnymi włosami.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$--font-body",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vCQ8Q",
+                      "name": "s3",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GLsCE",
+                          "fill": "$--color-accent-emerald",
+                          "content": "03",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zzk4w",
+                          "name": "s3T",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oMDnw",
+                              "fill": "$--color-text",
+                              "content": "Przedłużanie i Metamorfoza",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 25.89,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tgl1P",
+                              "fill": "$--color-text",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Delikatna aplikacja kapsułek lub taśm. Otrzymujesz nową gęstość, pełen blask i uśmiech na twarzy, gdy patrzysz w lustro.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$--font-body",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tDTau",
+              "name": "prcR",
+              "clip": true,
+              "width": 500,
+              "height": 600,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1773861813065.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sZvHS",
+          "name": "FAQ & Myths",
+          "width": "fill_container",
+          "fill": "$--color-bg-dark",
+          "gap": 80,
+          "padding": 120,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MGCSA",
+              "name": "fmLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QtjVV",
+                  "fill": "$--color-accent-gold",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Czy przedłużanie niszczy moje naturalne włosy?",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PTEXU",
+                  "fill": "#ffffffcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Absolutnie nie! Wykorzystujemy bezinwazyjne metody oraz dajemy pełne instrukcje pielęgnacji, dzięki czemu Twoje włosy rosną bezpiecznie i zdrowo pod doczepami.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x9dA4",
+              "name": "fmRight",
+              "width": 400,
+              "fill": "$--color-bg",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LhYsF",
+                  "name": "fmIcon",
+                  "fill": "#c094481a",
+                  "cornerRadius": 100,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "m17d3",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "download",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--color-accent-gold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "r7R8i",
+                  "fill": "$--color-text",
+                  "content": "Darmowy Poradnik",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 25.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "frD20",
+                  "fill": "$--color-text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pobierz darmowy PDF z instrukcją, jak dbać o włosy przedłużane w domowych warunkach.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "f8Ccx",
+                  "name": "fmBtn",
+                  "fill": "$--color-accent-emerald",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dmqJ2",
+                      "fill": "#FFFFFF",
+                      "content": "Pobierz poradnik",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y1ItO",
+          "name": "Pricing CTA",
+          "clip": true,
+          "width": "fill_container",
+          "height": 600,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1773863400218.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "padding": [
+            100,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "z7ENJ",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "ctaOverlay",
+              "opacity": 0.85,
+              "fill": "#0B0B0B",
+              "width": "fill_container(0)",
+              "height": "fill_container(0)"
+            },
+            {
+              "type": "frame",
+              "id": "LKtA4",
+              "name": "ctaContent",
+              "cornerRadius": 4,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$--color-accent-gold"
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                80,
+                100
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9Xxkr",
+                  "fill": "$--color-accent-gold",
+                  "content": "Poznaj cenę swojego przedłużania włosów",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 41.89,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "5yFY5",
+                  "fill": "#ffffffe6",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Koszt każdej metamorfozy jest wyceniany indywidualnie podczas bezpłatnej konsultacji. Zarezerwuj swój termin już dziś i odbierz spersonalizowaną ofertę.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "WGrZw",
+                  "name": "ctaBtn",
+                  "fill": "$--color-accent-gold",
+                  "cornerRadius": 100,
+                  "padding": [
+                    20,
+                    64
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n6bAM",
+                      "fill": "#0B0B0B",
+                      "content": "Umów bezpłatną konsultację",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4VI7T",
+          "name": "FAQ List",
+          "width": "fill_container",
+          "fill": "$--color-bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rz9fb",
+              "fill": "$--color-text",
+              "content": "Najczęściej zadawane pytania",
+              "fontFamily": "$--font-display",
+              "fontSize": 41.89,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "G1PCz",
+              "name": "qList",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NUzD9",
+                  "name": "q1",
+                  "width": "fill_container",
+                  "fill": "$--color-bg-dark",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#c0944880"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9LjWA",
+                      "name": "q1Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BMaIt",
+                          "fill": "$--color-accent-gold",
+                          "content": "Ile utrzymuje się przedłużanie włosów?",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xrfuw",
+                          "name": "q1Icon",
+                          "fill": "#c094481a",
+                          "cornerRadius": 100,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "UgAac",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "minus",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--color-accent-gold"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S2atL",
+                      "fill": "#ffffffcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Efekt przedłużania włosów utrzymuje się zazwyczaj od 2,5 do 3 miesięcy. Po tym czasie zalecana jest korekta, czyli podciągnięcie pasm bliżej nasady, aby fryzura wyglądała naturalnie i zdrowo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2WiSi",
+                  "name": "q2",
+                  "width": "fill_container",
+                  "fill": "$--color-bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#ffffff0d"
+                  },
+                  "layout": "vertical",
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XOxxq",
+                      "name": "q2Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GOVn0",
+                          "fill": "$--color-text",
+                          "content": "Czy kapsułki są widoczne?",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JS7U9",
+                          "name": "q2Icon",
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ffffff33"
+                          },
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "dZHVj",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "plus",
+                              "iconFontFamily": "lucide",
+                              "fill": "#ffffffcc"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KIB3t",
+                  "name": "q3",
+                  "width": "fill_container",
+                  "fill": "$--color-bg",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#ffffff0d"
+                  },
+                  "layout": "vertical",
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5rwnd",
+                      "name": "q3Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ur4Xq",
+                          "fill": "$--color-text",
+                          "content": "Ile trwa zabieg przedłużania włosów?",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fDPc8",
+                          "name": "q3Icon",
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ffffff33"
+                          },
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "AlBw8",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "plus",
+                              "iconFontFamily": "lucide",
+                              "fill": "#ffffffcc"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fp444",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$--color-bg-dark",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            80,
+            120,
+            40,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "sHyU3",
+              "name": "ftTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qH6GG",
+                  "name": "ftLeft",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BIajE",
+                      "name": "logoGr",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BBjdT",
+                          "fill": "$--color-text-invert",
+                          "content": "BEAUTY EMPIRE",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 25.89,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "bjuAr",
+                          "fill": "$--color-accent-emerald",
+                          "content": "WARSAW",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "i6ROc",
+                      "fill": "#ffffffcc",
+                      "content": "Masz więcej pytań? Chętnie wszystko wyjaśnimy 🤍",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wG5OP",
+                  "name": "ftB",
+                  "fill": "#ffffff0d",
+                  "cornerRadius": 100,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tWdNG",
+                      "fill": "#FFFFFF",
+                      "content": "Umów wizytę",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dFIYk",
+              "name": "ftBottom",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#ffffff1a"
+              },
+              "padding": [
+                40,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XVMIx",
+                  "fill": "#ffffff80",
+                  "content": "© 2026 Beauty Empire Warsaw. Wszelkie prawa zastrzeżone.",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "9xFxm",
+                  "fill": "#ffffff80",
+                  "content": "Polityka Prywatności",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "--color-accent-emerald": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#13373F"
+        },
+        {
+          "value": "#13373F"
+        },
+        {
+          "value": "#064E3B"
+        },
+        {
+          "value": "#04281A"
+        },
+        {
+          "value": "#13373F"
+        }
+      ]
+    },
+    "--color-accent-gold": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#C09448"
+        },
+        {
+          "value": "#C09448"
+        }
+      ]
+    },
+    "--color-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F5F5F0"
+        },
+        {
+          "value": "#0B0B0B"
+        }
+      ]
+    },
+    "--color-bg-dark": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E1E27"
+        },
+        {
+          "value": "#1E1E27"
+        },
+        {
+          "value": "#1A2621"
+        },
+        {
+          "value": "#1E1E27"
+        }
+      ]
+    },
+    "--color-brown": {
+      "type": "color",
+      "value": "#744821"
+    },
+    "--color-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0B0B0B"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
+    },
+    "--color-text-invert": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#C09448"
+        }
+      ]
+    },
+    "--font-body": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Lato"
+        },
+        {
+          "value": "Lato"
+        }
+      ]
+    },
+    "--font-display": {
+      "type": "string",
+      "value": [
+        {
+          "value": "Lato"
+        },
+        {
+          "value": "Lato"
+        }
+      ]
+    },
+    "--color-accent-brown": {
+      "type": "color",
+      "value": "#744821"
+    }
+  }
+}

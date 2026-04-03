@@ -1,0 +1,11 @@
+{
+  "name": "beauty-empire",
+  "private": true,
+  "description": "Beauty Empire — Next.js site + Directus CMS",
+  "scripts": {
+    "dev": "bun run --cwd beauty-site dev",
+    "build": "bun run --cwd beauty-site build",
+    "start": "bun run --cwd beauty-site start",
+    "lint": "bun run --cwd beauty-site lint"
+  }
+}
