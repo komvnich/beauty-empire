@@ -2,6 +2,8 @@
 
 Монорепозиторий: сайт на Next.js и скрипты / конфигурация Directus CMS.
 
+**GitHub:** [github.com/komvnich/beauty-empire](https://github.com/komvnich/beauty-empire) (ветка `main`).
+
 ## Структура
 
 | Каталог | Назначение |
