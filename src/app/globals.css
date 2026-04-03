@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lato", "system-ui", "sans-serif";
+  --font-serif: "Lato", "system-ui", "sans-serif";
+
+  --color-emerald-deep: #13373F;
+  --color-gold: #C09448;
+  --color-brown-accent: #744821;
+  --color-bg-dark: #0B0B0B;
+  --color-card-dark: #1E1E27;
+}
+
+:root {
+  --font-sans: "Lato", sans-serif;
+}
+
+@layer base {
+  /* Принудительно устанавливаем Lato на все элементы */
+  html, body, *, *::before, *::after {
+    font-family: var(--font-lato, "Lato"), sans-serif !important;
+  }
+
+  body {
+    @apply bg-bg-dark text-white antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+.luxury-gradient {
+  background: linear-gradient(135deg, rgba(19, 55, 63, 0.8) 0%, rgba(11, 11, 11, 0.95) 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px rgba(192, 148, 72, 0.15);
+}
+
+.text-gold {
+  @apply text-gold bg-clip-text;
+}
+
+@keyframes loading {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
