@@ -1,0 +1,7 @@
+uploads
+data
+.git
+*.md
+setup-*.js
+fix-*.js
+rebuild-*.js

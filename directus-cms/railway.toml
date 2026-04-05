@@ -1,8 +1,7 @@
 # Volume: UI → Volume → сервис Directus, mount path = /directus/uploads
 # CLI: railway volume add -m /directus/uploads
-# [SERVICE_UNAVAILABLE] files / Couldn't save file: том обязателен; на томе владелец root, процесс — node →
-#   Variables: RAILWAY_RUN_UID=0 (запуск от root, запись в uploads).
-# Если в Variables есть STORAGE_* под S3 и ключи неверны — та же ошибка; уберите или исправьте.
+# Файлы: том /directus/uploads + образ chown в railway-entrypoint.sh (root → su-exec node).
+# Не задавайте RAILWAY_RUN_UID на не-root — иначе chown не выполнится. S3 в Variables с битыми ключами даёт ту же ошибку.
 # Сервис: Root Directory = directus-cms; KEY, SECRET, DB_*, PUBLIC_URL
 
 [build]
