@@ -935,7 +935,17 @@ export const SEO_STATIC_FALLBACK_TITLE = 'BEAUTY EMPIRE | Przedłużanie Włosó
 export const SEO_STATIC_FALLBACK_DESCRIPTION =
   'Ekskluzywne przedłużanie włosów w Warszawie. Metamorfozy, które odmienią Twoje życie. Zarezerwuj darmową konsultację.';
 
-const directusUrl = process.env.NEXT_PUBLIC_DIRECTUS_URL || 'http://localhost:8055';
+function trimTrailingSlash(url: string): string {
+  return url.replace(/\/+$/, '');
+}
+
+const directusApiUrl = trimTrailingSlash(
+  process.env.NEXT_PUBLIC_DIRECTUS_URL || 'http://localhost:8055'
+);
+
+const directusAssetsBaseUrl = trimTrailingSlash(
+  process.env.NEXT_PUBLIC_DIRECTUS_ASSETS_URL?.trim() || directusApiUrl
+);
 
 const LANG_MAP: Record<string, number> = {
   'pl-PL': 1,
@@ -950,11 +960,11 @@ const LANG_MAP: Record<string, number> = {
   en: 3
 };
 
-export const directus = createDirectus<Schema>(directusUrl).with(rest());
+export const directus = createDirectus<Schema>(directusApiUrl).with(rest());
 
 export function getAssetUrl(assetId: string | null) {
   if (!assetId) return '';
-  return `${directusUrl}/assets/${assetId}`;
+  return `${directusAssetsBaseUrl}/assets/${assetId}`;
 }
 
 function normalizeLangCode(langCode: string): string {
@@ -984,7 +994,7 @@ function stripToPlainMetaDescription(source: string, maxLen: number): string {
 
 async function fetchFromDirectus<T>(collection: string, fields: string = '*'): Promise<T | null> {
     const res = await fetch(
-      `${directusUrl}/items/${collection}?fields=${fields}`,
+      `${directusApiUrl}/items/${collection}?fields=${fields}`,
       {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
@@ -999,7 +1009,7 @@ async function fetchFromDirectus<T>(collection: string, fields: string = '*'): P
 }
 
 async function fetchDirectusList<T>(collection: string, query: string): Promise<T[] | null> {
-  const res = await fetch(`${directusUrl}/items/${collection}?${query}`, {
+  const res = await fetch(`${directusApiUrl}/items/${collection}?${query}`, {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' },
     cache: 'no-store',
