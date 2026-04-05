@@ -12,3 +12,4 @@ ENV STORAGE_LOCAL_ROOT=/directus/uploads
 
 USER root
 ENTRYPOINT ["/railway-entrypoint.sh"]
+CMD ["/bin/sh", "-c", ": \t&& node cli.js bootstrap \t&& pm2-runtime start ecosystem.config.cjs \t;"]
