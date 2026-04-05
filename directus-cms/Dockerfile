@@ -1,1 +1,5 @@
 FROM directus/directus:11.3.1
+
+ENV STORAGE_LOCATIONS=local
+ENV STORAGE_LOCAL_DRIVER=local
+ENV STORAGE_LOCAL_ROOT=/directus/uploads

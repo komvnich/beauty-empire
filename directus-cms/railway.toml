@@ -1,6 +1,8 @@
-# Volume: в UI — Volume → привязать к сервису Directus, mount path = /directus/uploads
-# CLI (из каталога с привязанным проектом): railway volume add -m /directus/uploads
-# Права: при ошибках записи в uploads задайте RAILWAY_RUN_UID=0
+# Volume: UI → Volume → сервис Directus, mount path = /directus/uploads
+# CLI: railway volume add -m /directus/uploads
+# [SERVICE_UNAVAILABLE] files / Couldn't save file: том обязателен; на томе владелец root, процесс — node →
+#   Variables: RAILWAY_RUN_UID=0 (запуск от root, запись в uploads).
+# Если в Variables есть STORAGE_* под S3 и ключи неверны — та же ошибка; уберите или исправьте.
 # Сервис: Root Directory = directus-cms; KEY, SECRET, DB_*, PUBLIC_URL
 
 [build]
